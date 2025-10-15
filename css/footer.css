@@ -1,0 +1,18 @@
+.footer {
+  background-color: #111; /* fondo principal */
+  color: #f5f5f5;        /* texto */
+}
+
+#mi-footer a {
+  color: #e60023; /* enlaces en rojo */
+  transition: color 0.3s ease;
+}
+
+#mi-footer a:hover {
+  color: #fff; /* al pasar el mouse se ponen blancos */
+}
+
+#mi-footer .bg-secondary {
+  background-color: #e60023 !important; /* barra inferior roja */
+  color: #fff !important;
+}

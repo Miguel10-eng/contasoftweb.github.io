@@ -1,0 +1,60 @@
+
+/* Fondo del navbar */
+.navbar {
+  background-color: #60C5FB !important; /* azul personalizado */
+  position: sticky;
+  top: 0;
+  border-radius: 0 0 30px 30px;     /* Bordes redondeados */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.322); /* Sombra sutil */
+  background-color: #ffffff !important; /* Fondo blanco */
+  margin: 0px 0px; /* Separación del borde de la ventana */
+  padding: 0.5rem 1rem;
+  z-index: 1030;
+}
+
+/* Color de los links del nav */
+.navbar .nav-link {
+  color:black !important; /* texto blanco */
+  transition: color 0.3s ease;
+}
+
+/* Hover en los links */
+.navbar .nav-link:hover {
+  color:black!important; /* amarillo al pasar el mouse */
+  background-color: #E0F4FD!important;
+}
+
+/* Botón hamburguesa (móvil) */
+.navbar-toggler {
+  border-color: black;
+  color: black;
+}
+
+/* Botón estilo Bootstrap personalizado */
+.btn-custom {
+  background-color: white; /* amarillo */
+  color: #000000;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: gray; /* más oscuro */
+}
+
+.navbar-nav .nav-link{
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navbar-nav .nav-link:hover{
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px white;
+  background: rgba(128, 128, 128, 0.267);
+  color: black;
+}

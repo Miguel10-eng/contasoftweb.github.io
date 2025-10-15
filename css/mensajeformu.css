@@ -1,0 +1,71 @@
+/* Estilo general del modal */
+#confirmModal .modal-content {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #ffffff, #f9f9f9);
+  animation: fadeInUp 0.4s ease;
+}
+
+/* Header del modal */
+#confirmModal .modal-header {
+  border-bottom: none;
+  justify-content: center;
+  background-color:black; /* Verde Bootstrap */
+  color: white;
+  border-radius: 16px 16px 0 0;
+  padding: 1rem;
+}
+
+/* Título */
+#confirmModal .modal-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* Cuerpo */
+#confirmModal .modal-body {
+  font-size: 1.1rem;
+  padding: 1.5rem;
+  color: #333;
+}
+
+/* Footer */
+#confirmModal .modal-footer {
+  border-top: none;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+/* Botón aceptar */
+#confirmModal .btn-success {
+  background: black;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 15px black;
+}
+
+#confirmModal .btn-success:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px white;
+  background: rgba(128, 128, 128, 0.267);
+  color: black;
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,66 @@
+/* Contenedor principal de la sección de contacto */
+#contacto {
+  background: #f8f9fa; /* gris claro */
+}
+
+/* Caja que envuelve formulario + mapa/QR */
+#contacto .contact-wrapper {
+  background: #fff; 
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+#contacto .form-control {
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+#contacto .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 6px rgba(13,110,253,0.3);
+}
+
+/* Botón */
+#contacto button {
+  background: black;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 15px black;
+}
+#contacto button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px white;
+  background: rgba(128, 128, 128, 0.267);
+  color: black;
+}
+
+/* QR con efecto hover */
+#contacto .qr-img-lg {
+  max-width: 200px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#contacto .qr-img-lg:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+#contacto .qr-img {
+  width: 200px;      /* 👈 tamaño fijo en PC */
+  height: 200px;     /* 👈 asegura que sean iguales */
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#contacto .qr-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+

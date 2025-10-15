@@ -1,0 +1,129 @@
+
+/* ================================
+   SECCIÓN 1 - TEAM SECTION
+================================ */
+.team-section {
+  background: #fff;
+  padding: 70px 5%;
+  overflow-x: hidden;
+}
+
+.team-section h2 {
+  font-size: 2.1rem;
+  color: #222;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.team-section p {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.team-section ul {
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.team-section ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+  color: #333;
+}
+
+.team-section ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.team-section .image-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.team-section .image-wrapper img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-section .image-wrapper:hover {
+  transform: scale(1.07);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+
+/* ================================
+   SECCIÓN 2 - TEAM SECTION 2
+================================ */
+.team-section-2 {
+  background: linear-gradient(90deg, #E0F4FD, #cfe8f7);
+  padding: 70px 5%;
+  overflow-x: hidden !important;
+}
+
+.team-section-2 h2 {
+  font-size: 2.1rem;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.team-section-2 p {
+  font-size: 1.05rem;
+  color: #222;
+  line-height: 1.7;
+}
+
+.team-section-2 ul {
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.team-section-2 ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+  color: #111;
+}
+
+.team-section-2 ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.team-section-2 .image-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.team-section-2 .image-wrapper img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-section-2 .image-wrapper:hover {
+  transform: scale(1.07);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+

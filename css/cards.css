@@ -1,0 +1,37 @@
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card {
+  width: 350px;       /* ancho fijo */
+  margin: 9px auto;  /* la centra horizontalmente */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card .btn{
+  background: black;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 15px black;
+}
+
+.card .btn:hover{
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px white;
+  background: rgba(128, 128, 128, 0.267);
+  color: black;
+}
+

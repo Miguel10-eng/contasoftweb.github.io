@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Software Gestion Documental</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/faviconcontasoft.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/carrusel.css" />
+    <link rel="stylesheet" href="css/card-carousel.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/contactanos.css" />
+    <link rel="stylesheet" href="css/mensajeformu.css" />
+    <link rel="stylesheet" href="css/botonflotante.css" />
+    <!--AOS ANIMACIONES-->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start your project here-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  <div class="container-fluid">
+        <a class="navbar-brand me-2" href="">
+      <img
+        src="img/logoen3dcontasoft.png"
+        height="50"
+        alt="MDB Logo"
+        loading="lazy"
+        style="margin-top: -1px;"
+      />
+    </a>
+    <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        <a class="nav-link" href="index.docuarchi.html">DocuArchi</a>
+        <a class="nav-link" href="#">Contactanos</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--boton flotante-->
+<button
+  type="button"
+  class="btn btn-primary btn-lg btn-floating"
+  style="position: fixed; bottom: 20px; right: 20px; z-index: 1050;"
+  onclick="window.open('https://wa.me/573102557570')"
+>
+  
+  <i class="fab fa-whatsapp fa-2x"></i>
+</button>
+
+<!--tarjeta contactanos-->
+<section id="contacto" class="py-5">
+  <div class="container" data-aos="flip-right">
+    <h2 class="text-center mb-5 fw-bold">Contáctanos</h2>
+
+    <div class="contact-wrapper">
+      <div class="row g-4">
+        
+        <!-- Formulario -->
+        <div class="col-lg-7" >
+          <form id="contactForm" action="https://formsubmit.co/auxiliarsoporte.docuarchi@gmail.com" method="POST">
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres" placeholder="Escribe tus nombres" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="apellidos" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="apellidos" placeholder="Escribe tus apellidos" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="empresa" class="form-label">Empresa</label>
+              <input type="text" class="form-control" id="empresa" placeholder="Nombre de la empresa">
+            </div>
+
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Número de contacto</label>
+              <input type="tel" class="form-control" id="telefono" placeholder="Ej: +57 300 123 4567" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="gmail" class="form-label">Correo Gmail</label>
+              <input type="email" class="form-control" id="gmail" placeholder="tucorreo@gmail.com" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="comentarios" class="form-label">Comentarios</label>
+              <textarea class="form-control" id="comentarios" rows="4" placeholder="Escribe aquí tus comentarios"></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn-2 btn-primary px-5 py-2 rounded-pill shadow">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Mapa + QR -->
+        <div class="col-lg-5">
+          <h4 class="text-center mb-3">Ubicación</h4>
+          <div class="ratio ratio-16x9 mb-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6119.463078418492!2d-73.63694192345997!3d4.128612346348123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwMDcnNDMuMCJOIDczwrAzOCcwMy43Ilc!5e1!3m2!1ses-419!2sco!4v1760478814005!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <h5 class="text-center mb-3">Síguenos</h5>
+          <div class="d-flex justify-content-around">
+            <div class="text-center">
+              <img src="img/igperfilqr.png" alt="QR Instagram" class="img-fluid qr-img-lg">
+              <p class="mt-2 small">Instagram</p>
+            </div>
+
+            <div class="text-center">
+              <img src="img/whatsappchat.png" alt="QR WhatsApp" class="img-fluid qr-img">
+              <p class="mt-2 small">WhatsApp</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Modal de Confirmación -->
+<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmModalLabel">✅ ¡Tu mensaje ha sido enviado!</h5>
+      </div>
+      <div class="modal-body">
+        🎉 ¡Gracias por confiar en nosotros! <br>
+        Nuestro equipo se pondrá en contacto contigo lo más pronto posible.
+      </div>
+      <div class="modal-footer">
+        <button id="btnAceptar" class="btn btn-success w-100">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const form = document.getElementById('contactForm');
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault(); // evita recargar
+
+    try {
+      let response = await fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+      });
+
+      if (response.ok) {
+        form.reset(); // limpia el formulario
+        // Mostrar el modal de confirmación
+        const confirmModal = new mdb.Modal(document.getElementById('confirmModal'));
+        confirmModal.show();
+      } else {
+        alert("❌ Ocurrió un error, intenta de nuevo.");
+      }
+    } catch (error) {
+      alert("⚠️ Error de conexión.");
+    }
+  });
+
+  document.getElementById("btnAceptar").addEventListener("click", function() {
+  // Redirige al inicio
+  window.location.href = "index.html"; 
+});
+
+</script>
+
+
+
+
+<!--footer-->
+<footer class="text-center text-white mt-5" style="background-color: #0d0d0d;">
+  <!-- Redes sociales destacadas -->
+  <section class="py-4 border-bottom border-secondary">
+    <h5 class="mb-3 fw-bold text-uppercase text-light">Síguenos en nuestras redes</h5>
+    <div class="d-flex justify-content-center gap-4">
+      <a href="https://www.facebook.com/share/1BmgS98j21/" class="text-white social-link"><i class="fab fa-facebook-f fa-2x"></i></a>
+      <a href="https://wa.me/573102557570" class="text-white social-link"><i class="fab fa-whatsapp fa-2x"></i></a>
+      <a href="https://www.instagram.com/contasoftcompany?igsh=YjRpcWNuY2t2NWph" class="text-white social-link"><i class="fab fa-instagram fa-2x"></i></a>
+    </div>
+  </section>
+
+  <!-- Contenido inferior -->
+  <section class="container py-5">
+    <div class="row text-center text-md-start">
+      <!-- Logo o descripción -->
+      <div class="col-md-4 mb-4">
+        <h6 class="text-uppercase fw-bold mb-3"><i class="fas fa-file-alt me-2"></i>Gestión Documental</h6>
+        <p class="text-muted">
+          Optimiza tus procesos, gestiona tus documentos de forma segura y ten control total sobre tu información.
+        </p>
+      </div>
+
+      <!-- Enlaces útiles -->
+      <div class="col-md-4 mb-4">
+        <h6 class="text-uppercase fw-bold mb-3">Enlaces útiles</h6>
+        <ul class="list-unstyled text-muted">
+          <li><a href="index.html" class="text-reset text-decoration-none">Inicio</a></li>
+          <li><a href="index.docuarchi.html" class="text-reset text-decoration-none">DocuArchi</a></li>
+        </ul>
+      </div>
+
+      <!-- Contacto -->
+      <div class="col-md-4 mb-4">
+        <h6 class="text-uppercase fw-bold mb-3">Contáctanos</h6>
+        <p class="mb-1"><i class="fas fa-home me-2"></i>Villavicencio, Colombia</p>
+        <p class="mb-1"><i class="fas fa-envelope me-2"></i>comercial@contasoftcompany.com</p>
+        <p><i class="fas fa-phone me-2"></i>310 255 7570</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Derechos -->
+  <div class="text-center py-3 border-top border-secondary" style="background-color: #111;">
+    <small class="text-muted">© 2025 Contasoft Company S.A.S | Todos los derechos reservados</small>
+  </div>
+</footer>
+
+<!-- End your project here-->
+
+<!-- MDB -->
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+  AOS.init({
+    duration: 1000,
+    once: false
+  });
+</script>
+  </body>
+</html>

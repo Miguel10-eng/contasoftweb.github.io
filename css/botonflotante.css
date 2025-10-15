@@ -1,0 +1,16 @@
+  /* Personaliza el color y agrega efectos */
+  .btn {
+    background-color: #25D366 !important; /* Verde oficial WhatsApp */
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #1ebe5d !important; /* tono más oscuro */
+    transform: scale(1.1);
+  }
+
+  .btn:active {
+    transform: scale(0.95);
+  }

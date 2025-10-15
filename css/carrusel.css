@@ -1,0 +1,27 @@
+/* Ajustar tamaño del carrusel */
+#carouselExampleCaptions {
+  width: 100%;
+  max-width: 100%; /* siempre ocupa el ancho completo */
+  margin: 0 auto;
+}
+
+/* Ajustar altura de las imágenes */
+#carouselExampleCaptions .carousel-item img {
+  height: 100vh;       /* ocupa toda la altura de la pantalla */
+  object-fit: cover;   /* recorta sin deformar */
+}
+
+/* Opciones para hacerlo responsive */
+@media (max-width: 1200px) {
+  #carouselExampleCaptions .carousel-item img {
+    height: 70vh; /* un poco más bajo en pantallas medianas */
+  }
+}
+
+@media (max-width: 768px) {
+  #carouselExampleCaptions .carousel-item img {
+    height: 50vh; /* más bajo en móviles */
+  }
+}
+
+

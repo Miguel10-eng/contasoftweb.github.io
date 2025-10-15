@@ -1,0 +1,17 @@
+  .logo-cliente {
+    max-height: 120px; /* ajusta el alto según prefieras */
+    width: auto;      /* mantiene la proporción */
+    object-fit: contain;
+    filter: grayscale(100%); /* opcional: da un efecto elegante en blanco y negro */
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .logo-cliente:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+  }
+
+  /* Espaciado más uniforme */
+  .carousel-item .d-flex {
+    gap: 2rem;
+  }

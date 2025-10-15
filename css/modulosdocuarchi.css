@@ -1,0 +1,85 @@
+/* --- Sección de servicios / módulos --- */
+.services-section {
+  background-color: #f8f9fa;
+}
+
+.service-card {
+  transition: all 0.3s ease;
+  border-radius: 1rem;
+  text-align: center;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Ícono principal de cada card */
+
+.service-icon i{
+  font-size: rem;
+  color: #0d6efd;
+  background: rgba(13, 110, 253, 0.1);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover .service-icon i{
+  background: #0d6efd;
+  color: #fff!important;
+  transform: scale(1.1);
+}
+
+/* Hover: efecto agrandamiento + sombra */
+.service-card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+  z-index: 2;
+}
+
+/* Listas internas (viñetas de servicios) */
+.service-card ul li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  display: flex;
+  align-items: flex-start;
+}
+
+.service-card ul li i {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+/* Textos */
+.service-card h5 {
+  color: #212529;
+  font-weight: 600;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Ajuste general de espaciado */
+.services-section .container {
+  max-width: 1200px;
+}
+
+.services-section .d-flex {
+  gap: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-card {
+    width: 100% !important;
+  }
+}
